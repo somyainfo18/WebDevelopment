@@ -1,0 +1,261 @@
+<html>
+
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="first.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="testnav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Developer Funnel</a>
+            </div>
+            <div class="collapse navbar-collapse" id="testnav">
+            <ul class="nav navbar-nav">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <ul class ="nav navbar-nav navbar-right">
+                <li>
+                    <a href ="#">
+                        <span class ="glyphicon glyphicon-user"></span> SignUp
+                    </a>
+                </li>
+                <li>
+                    <a href ="#">
+                        <span class ="glyphicon glyphicon-log-in"></span> LogIn
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        </div>
+   
+
+        </nav>
+
+
+
+
+
+        <div class="jumbotron">
+            <h1>
+                Developer Funnel
+            </h1>
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1>my page</h1>
+                </div>
+                <div class="panel-body">
+                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic
+                        or web
+                        designs.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
+                designs.
+            </p>
+            <p>
+                The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled
+                parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:
+
+            </p>
+
+        </div>
+        <br/>
+        <div class ="progress">
+            <div class ="progress-bar" role="progressbar" style = "width:10%" >
+            <span> 10% complete</span>
+        </div>
+        </div>
+        <!--- add different color-->
+        <div class ="progress">
+            <div class ="progress-bar progress-bar-success" role="progressbar" style = "width:10%" >
+            <span> 10% complete</span>
+        </div>
+        </div><div class ="progress">
+            <div class ="progress-bar progress-bar-info" role="progressbar" style = "width:10%" >
+            <span> 10% complete</span>
+        </div>
+        </div>
+        <div class ="progress">
+            <div class ="progress-bar progress-bar-danger" role="progressbar" style = "width:10%" >
+            <span> 10% complete</span>
+        </div>
+        </div>
+        <!-- make the progress bar striped-->
+        <div class ="progress">
+            <div class ="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" style = "width:70%" >
+            <span> 70% complete</span>
+        </div>
+        </div>
+        <div class ="progress">
+            <div class ="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" style = "width:70%" >
+            <span> 70% complete</span>
+        </div>
+        </div>
+        <div>
+            <!--carousel-->
+            <div id ="eduCarousel" class = "carousel slide" data-ride ="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#eduCarousel" data-slide-to ="0" class ="active"></li>
+                    <li data-target="#eduCarousel" data-slide-to ="1" ></li>
+                    <li data-target="#eduCarousel" data-slide-to ="2" ></li>
+                </ol>
+                <div class ="carousel-inner">
+                <div class ="item active">
+                    <img src ="food ocean.png"/>
+
+                </div>
+                <div class ="item ">
+                    <img src ="subway.png"/>
+
+                </div>
+                <div class ="item ">
+                    <img src ="bombay.jpg"/>
+
+                </div>
+            </div>
+            <a class ="left carousel-control" href ="#eduCarousel" data-slide="prev">
+
+            </a>
+            </div>
+
+
+
+
+
+
+
+
+
+            <!---carousel-->
+ <br/>
+ <button  type ="button" class ="btn btn-success" data-toggle="modal" data-target="#eduModal">
+     open modal
+
+     </button>
+     <div id ="eduModal" class ="modal fade" role="dialog">
+         <div class="modal-dialog">
+             <div class ="modal-content">
+                 <div class = "modal-header">
+                     <button type ="button" class ="close" data-dismiss="modal" >
+                         &times
+
+                     </button>
+                     <h4 class ="modal-title"> cardetails></h4>
+                     
+                 </div>
+                <div class ="modal-body" >
+                    <p>some text here</p>
+                </div>
+                <div class="modal-footer">
+                    <button type ="button" class ="close" data-dismiss="modal" >
+                    close
+                </div>
+             </div>
+
+         </div>
+     </div>
+
+
+
+        <button> click me</button>
+        <button class="btn btn-primary"> click me</button>
+        <button class="btn btn-info"> click me</button>
+        <button class="btn btn-success"> click me</button>
+        <!---if i want to override the color use css and use color clas name-->
+        <button class="btn btn-warning"> click me</button>
+        <button class="btn btn-danger"> click me</button>
+        <button class="btn"> click me</button>
+        <div class="row">
+            <div class="col-md-6">
+                <img src=" subway.png" class="img-responsive" />
+            </div>
+            <div class="col-md-6">
+                <img src="food ocean.png" class="img-responsive" />
+            </div>
+        </div>
+
+        <i class="fa fa-facetook"></i>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-hotel"></i>
+
+
+
+
+
+
+        <span class="glyphicon glyphicon-print"></span>
+        <span class="glyphicon glyphicon-trash"></span>
+        <!-- change the color and size (means override)-->
+
+
+
+        <div class="row">
+            <div id="one" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="two" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="three" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="four" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="five" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="six" class="col-lg-2  col-md-4 col-sm-6"></div>
+            <div id="three" class="col-lg-2  col-md-4 col-sm-6"></div>
+
+        </div>
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>Rollno.</th>
+                    <th>name</th>
+                    <th>results</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <th>somya</th>
+                    <th> pass</th>
+
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Rachit</th>
+                    <th> pass</th>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
